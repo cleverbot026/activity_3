@@ -1,18 +1,20 @@
 * {
-	font-family:"Ink Free regular";
+	font-family:"Century Gothic"; 
+	color: white;
 }
 
 h1{
-
-	color: yellow; 
+	font-family:"Century Gothic";
+	color: white; 
 }
 
 header * {
 
-	display: inline;
+	display: inline; 
+	margin-top: 100px;
 }
 
- 
+
  
 
 #hi {
@@ -29,12 +31,12 @@ header * {
 .imageClass {
 	height: 331px;
 	width: 221px;
-	border-radius:10%;
+	border-radius:15%;
 } 
 
 nav p a {
 	text-decoration:none; 
-	padding: 20px; 
+	padding: 15px; 
  	border: #ffffff 0.5px solid;
 }
 
@@ -44,7 +46,7 @@ nav p a:hover {
 }
 
 nav{
-	background-color: #E0F2E9;
+	background-color: #456990;
 	position:fixed;
 	top: 0;
 	width:100%;
@@ -52,8 +54,10 @@ nav{
 
 #featuredimages{
 
-display: grid;
-grid-template-columns:20%; 
+display: flex;
+
+grid-template-columns:30%; 
 
 
-}
+} 
+
