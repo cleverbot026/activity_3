@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+
 body {
 
-	background-color: white;
-	background-image: url(Darth.jpg);
-	width: 1200;
-	height: 1300px;
-    background-repeat: no-repeat;
-    background-position: center ;
+    margin: 25px 50px 75px 100px;
 
+	background-color: white;
+	background-image: url(BG.jpg);
+    font-family: 'Bitter', serif;
 
 
 
@@ -15,7 +16,7 @@ nav a:hover{
 	border: 2px solid black;
 }
 
-a{
+{
 	text-decoration: none;
 }
 
@@ -52,6 +53,7 @@ a{
      	 background-color: white;
      	 top: 0;
      	 width: 100%
+         margin-left: 0;
      } burat
 
      
@@ -71,7 +73,7 @@ img {
     width: 150px;
     height:150px;
 }
-#logo{
+.logo img{
     width: 75px;
     height:75px;
 }
@@ -104,18 +106,20 @@ nav {
 header {
     margin-top: 50px;
 }
-#featured-images {
+#My featured-images {
     display: grid;
     grid-template-columns: 100%;
     grid-row-gap: 40px; 
 }
 
 .row1{
-    text-align: center;
-}
-
-.row2 {
     display: flex;
     justify-content: space-around;
 }
+
+.row2 {
+
+   
+}
+
 
