@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); 
+
+
+
 * {
-	font-family:"Century Gothic"; 
+	font-family:'Press Start 2P',century gothic; 
 	color: white;
 }
 
 h1{
-	font-family:"Century Gothic";
+	font-family:'Press Start 2P',century gothic;
 	color: white; 
 }
 
@@ -29,6 +33,7 @@ header * {
 	width: 50px;
 }
 .imageClass {
+	
 	height: 331px;
 	width: 221px;
 	border-radius:15%;
@@ -53,11 +58,17 @@ nav{
 } 
 
 #featuredimages{
-
+text-align: center;
 display: flex;
 
 grid-template-columns:30%; 
 
 
-} 
+
+}  
+
+.row2{
+
+	padding: 15px;
+}
 
