@@ -1,21 +1,21 @@
 *{
 
-font-family: "geogia", Times, serif;
+font-family: "geogia";
   font-weight: bold;
-
+flood-color: 
 
 }
 
-nav{
+nav {
 position:fixed;
-background-color: #000000
+background-color: #990012
 top:0;
 width:100%;
 }
 
 body {
 
-background-color: rgb(201, 76, 76);
+background-color: #810541;
 
 }
 
@@ -33,7 +33,7 @@ text-decoration: none;
 color: black;
 padding-right: 10px;
 margin: 5px;
-border: #ddd 0.5px solid;
+border: #493D26 0.5px solid;
 
 }
 
