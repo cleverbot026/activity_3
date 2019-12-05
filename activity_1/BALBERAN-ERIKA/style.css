@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans&display=swap');
+
+*{
+
+	font-family: "Indie Flower";
+
+
+
+}
+body{
+
+	background:#B9D9EE;
+}
+.classimage{
+	width:500px; 
+	height:500px;
+	border-radius:50%; 
+
+}
+
+ h1{
+ 	color:#0267C1;
+ 	font-size: 60px;
+
+ }
+ nav p a{
+
+    text-decoration: none;
+    padding: 1%;
+    border: #090908 0.5px solid;
+    font-family: "Indie Flower";
+    color: Black;
+
+ }
+ nav p a:hover{
+ 
+
+ 	border:#459AD4 0.5px solid;
+ }
+ nav {
+ 	
+ 	background-color:#FFFFFF;
+ 	position:fixed;
+ 	top:0;
+ 	width:100%;
+
+
+ }
+ section div{
+ 	font-size:20px;
+ 	display: flex;
+ 	justify-content: space-around; 
+ }
+
+
+ 
