@@ -1,0 +1,39 @@
+*{
+	font-family: "Century Gothic";
+
+}
+
+main section {
+background-color: #eee;
+}
+
+main section:nth-child(odd){
+background-color: #ddd; 
+
+}
+main {
+     display: grid;
+     grid-template-columns: 30% 30% 30%;
+     grid-template-rows: 50% 50%;
+     /*grid-column-gap: 20px;
+     grid-row-gap: 20px;*/
+     grid-gap: 20px 30px;
+}
+
+.box1{
+	/*flex: 1;
+	order: 1;
+	width: 20%;*/
+}
+
+.box2{
+	/*flex: 1;
+	order:3;
+	width: 20%;*/
+}
+
+.box3{
+	/*flex: 3;
+	order:2;
+	width: 20%;*/
+}

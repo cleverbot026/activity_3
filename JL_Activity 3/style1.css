@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Catamaran|Domine|Pacifico|Prompt&display=swap');
+
+*{
+font-family: 'Volkhov', serif;
+}
+
+header{
+	font-size: 30px;
+}
+body{
+background-color:#15171E;
+}
+
+img{
+width:250px;
+height:250px;
+border-radius:50%;
+}
+
+h3 {
+color:#D6E5E3;
+}
+
+p{
+	color:#D6E5E3;
+}
+
+h1 {
+	color:#D6E5E3;
+}
+
+h2 {
+    color:#D6E5E3;
+}
+
+q {
+	color:#D6E5E3;
+}
+
+nav p a {
+	text-decoration: none;
+	color: #D6E5E3;
+	padding-right:10px;
+	margin:5px;
+	border:#ddd 0.5px solid;
+}
+
+nav p a:hover { border: white 1px solid; 
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color:#15171E; 
+}
+
+header {
+	margin-top: 50px;
+}
+
+h5 {
+	color:#D6E5E3 ;
+}
+h4 {
+   color:#D6E5E3 ;
+}
+
+#featured-images{
+	display:grid;
+	grid-template-columns:50%;
+	grid-row-gap:50%; 
+
+}
+.row1 {
+	text-align center; 
+}
+
+.row2{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.box1 h3 {
+font-family: 'Pacifico', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Domine', serif;
+}
+.box1 h5 {
+font-family: 'Pacifico', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Domine', serif;
+}
+
+td {
+	color: #D6E5E3;
+font-family: 'Pacifico', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Domine', serif;
+}
+
+caption {
+	color: #D6E5E3;
+}
+
+.box3 {
+ content: center;
+}
