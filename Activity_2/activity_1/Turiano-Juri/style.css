@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+*{
+	font-family:"Alatsi";
+	color: gray;
+}
+header *{
+
+	display: inline;
+	margin-top: 100px;
+}
+
+.image{
+
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+nav p a{
+
+	text-decoration: none;
+	padding: 1%;
+	border:#6A041D 0.5px solid;
+	font-family:"Alatsi";
+	color: white;
+}
+nav p a:hover{
+
+	border:#1F271B 0.5px solid;
+
+}
+nav{
+	background-color: #456990;
+	position:fixed;
+	top: 0 ;
+	width:100%;
+}
+
+
+section div{
+	font-size:20px; 
+	display:flex;
+	justify-content: space-around; 
+
+}
