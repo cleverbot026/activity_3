@@ -1,0 +1,66 @@
+*{
+
+font-family: "geogia";
+  font-weight: bold;
+flood-color: 
+
+}
+
+nav {
+position:fixed;
+background-color: #990012
+top:0;
+width:100%;
+}
+
+body {
+
+background-color: #810541;
+
+}
+
+img{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%
+
+
+}
+nav p a{
+
+text-decoration: none;
+color: black;
+padding-right: 10px;
+margin: 5px;
+border: #493D26 0.5px solid;
+
+}
+
+nav p a:hover{ 
+border:#131112 0.5px solid;
+
+
+}
+
+header{
+
+	margin-top: 50px;
+}
+#profile{
+	border-radius: 50%;
+	width:200%;
+	height: 200%;
+}
+#featured-images{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-row-gap: 40px;
+}
+.row1{
+     text-align: center;
+}
+.row2 {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,28 @@
+*{
+	font-family: "geogia"
+}
+
+main section{
+	background-color: #92a8d1;
+
+}
+main section:nth-child(odd){
+background-color: #fefbd8
+}
+main {
+	display: grid;
+	grid-template-columns: 30% 30% 30%
+	grid-template-row:;
+ 
+  
+}
+.box1{
+width: 20%
+}
+.box2{
+
+width: 20%
+}
+.box3{
+width: 20%	
+}
