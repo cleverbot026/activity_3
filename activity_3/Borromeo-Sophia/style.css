@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); 
+
+
+
+* {
+	font-family:'Press Start 2P',century gothic; 
+	color: white;
+}
+
+h1{
+	font-family:'Press Start 2P',century gothic;
+	color: white; 
+}
+
+header * {
+
+	display: inline; 
+	margin-top: 100px;
+}
+
+
+ 
+
+#hi {
+
+	height:150;
+	width:150;
+} 
+
+#ho{
+
+	height: 50px;
+	width: 50px;
+}
+.imageClass {
+	
+	height: 331px;
+	width: 221px;
+	border-radius:15%;
+} 
+
+nav p a {
+	text-decoration:none; 
+	padding: 15px; 
+ 	border: #ffffff 0.5px solid;
+}
+
+nav p a:hover {
+
+	border:#1F271B 0.5px solid;
+}
+
+nav{
+	background-color: #456990;
+	position:fixed;
+	top: 0;
+	width:100%;
+} 
+
+#featuredimages{
+text-align: center;
+display: flex;
+
+grid-template-columns:30%; 
+
+
+
+}  
+
+.row2{
+
+	padding: 15px;
+}
+
