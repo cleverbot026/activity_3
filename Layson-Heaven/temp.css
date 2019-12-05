@@ -1,0 +1,51 @@
+*{
+	font-family: Times-New-Roman;
+}
+
+main section {
+	background-color: #eee;
+}
+
+main section:nth-child(odd){
+	background-color: #eee;
+}
+main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box1{
+    flex: 1;
+    order: 1;
+    width: 20%;
+}
+
+.box2{
+    flex: 1;
+    order: 3;
+    width: 30%
+}
+
+.box3{
+    flex: 3;
+    order: 2;
+    width: 40%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
