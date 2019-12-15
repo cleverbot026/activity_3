@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+
+body {
+
+    margin: 25px 50px 75px 100px;
+
+	background-color: white;
+	background-image: url(BG.jpg);
+    font-family: 'Bitter', serif;
+
+
+
+}
+nav a:hover{
+	border: 2px solid black;
+}
+
+{
+	text-decoration: none;
+}
+
+# {
+
+
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+}
+
+#jah {
+
+
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+    nav a
+     {
+     padding: 5px 5px 5px 5px;
+     color:black;
+     border:black 3px solid;
+     text-decoration: none;
+     }
+     nav a:hover
+     {
+     border: 3px white solid;
+     }
+     nav {
+
+     	 position: fixed;
+     	 background-color: white;
+     	 top: 0;
+     	 width: 100%
+         margin-left: 0;
+     } burat
+
+     
+}
+h1 {
+    color:#FFFFFF;
+    font-size: 75px;
+}
+h3 {
+    color: black;
+}
+b {
+    color:black;
+}
+img {
+    border-radius:50%; 
+    width: 150px;
+    height:150px;
+}
+.logo img{
+    width: 75px;
+    height:75px;
+}
+header *{
+    display: inline;
+    vertical-align: top;
+}
+body {
+    background-color:white;
+}
+p {
+    color:black;
+}
+nav p a {
+    text-decoration: ;
+    padding: 10px;
+    color: white;
+    border: #000000 0.5px dotted;
+    margin:5px;
+}
+nav p a:hover {
+    border:#F0FFFF 0.5px dotted;
+}
+nav {
+    position: fixed; 
+    background-color:black ;
+    top: 0;
+    width: 100%;
+}
+header {
+    margin-top: 50px;
+}
+#My featured-images {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 40px; 
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row2 {
+
+   
+}
+
+
