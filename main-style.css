@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
 body {
 
@@ -24,10 +24,6 @@ header {
 	
 }
 
-#prof1{
-
-	/*width: 70%;*/
-}
 header h1 { 
 	font-size: 100px; 
 	color: #AAF683;
